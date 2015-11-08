@@ -40,5 +40,6 @@
         <li><a href="<?php bloginfo('url'); ?>/about">About</a></li>
         <li><a href="<?php bloginfo('url'); ?>/random">Random Past</a></li>
         <li><a href="http://twitter.com/mayflylink">Twitter Notifications</a></li>
+        <?php if(is_user_logged_in()) { ?><li><a href="<?php bloginfo('url'); ?>/wordpress/wp-admin">/wp-admin</a></li><?php } ?>
       </ul>
     </aside>
