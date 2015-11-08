@@ -49,7 +49,7 @@ if(is_home()||is_page('random')){
           var res = data.split(",");
           estimated = res[0];
           width = res[1];
-          if($('body').hasClass('home-blablabla')){
+          if($('body').hasClass('home')){
             $('footer>.columns>p').html('Estimated lifetime: '+estimated).animate({
               opacity: 1
             }, 1000);
