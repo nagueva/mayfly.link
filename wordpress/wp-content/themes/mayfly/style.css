@@ -1,0 +1,54 @@
+/*
+Theme Name: Mayfly Theme
+Theme URI: http://mayfly.link/
+Author: Guilherme Nagüeva
+Author URI: https://nagueva.com/
+Description: A theme for the Mayfly Link project.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: mayfly, mayfly link, nagueva
+Text Domain: mayfly
+*/
+body{cursor:default;height:100%;background:#666}
+.tab-bar{background:none}
+.tab-bar .left-small{border:0;}
+.tab-bar h1{font-weight:normal;padding:.5em  0 0}
+.home .tab-bar h1 a{cursor:default;}
+.tab-bar h1 img{height:50px;}
+.hentry h1{padding:2em 0 .5em}
+.hentry h1 a{display:block;text-align:center;color:#fff;font-size:2em;letter-spacing:-.035em;line-height:1em}
+.hentry h1 a span.excerpt{display:block;font-size:.35em;letter-spacing:-.035em;line-height:1em;padding:1em 1em 0;opacity:.5}
+.hentry h1 a span.button{letter-spacing:normal;background:rgba(0,0,0,.5);color:rgba(255,255,255,.65);}
+.hentry h1 a:hover span.button{background:rgba(0,0,0,1);color:rgba(255,255,255,1);}
+.hentry .entry-content{background:#fff;padding:2.5em;border-radius:20px;}
+footer{text-align:center;color:rgba(255,255,255,.75);font-size:.9em;}
+footer p{opacity:0;}
+#lifetime{padding:0;border:0;background:rgba(255,255,255, .25);height:.5em}
+#lifetime .meter{background:rgba(255,255,255, .5)}
+.off-canvas-list{text-align:center}
+.off-canvas-list label{cursor:default}
+.off-canvas-list img{margin:1em auto 0;width:20%;display:block}
+.off-canvas-list h3{margin:0}
+.off-canvas-list h3 a{background:none !important;border:0 !important;opacity:.75;transition: opacity .25s linear 0.1s !important; }
+.off-canvas-list h3 a:hover{opacity:1}
+.off-canvas-list p{color:#666;font-size:.8em;padding:1em .5em 0}
+.page{background:#333}
+.page .hentry h1{padding:.5em 0}
+.page .hentry h1 a{cursor:default;font-size:1.6em}
+.page .hentry h1 a span.excerpt{padding:.5em 1em 0}
+.page-id-13{background:#666}
+.page-id-13 .hentry h1{padding:2em 0 .5em}
+.page-id-13 .hentry h1 a{font-size:2em;cursor:pointer;opacity:.5}
+.page-id-13 .hentry h1 a span.excerpt{padding:1em 1em 0}
+.page-id-13 footer p{opacity:1;}
+.page-id-13 .tab-bar h1 img{
+  transform: rotate(210deg);
+  -moz-transform: rotate(210deg);
+  -webkit-transform: rotate(210deg);
+}
+@media only screen and (max-width:40em){
+  .hentry h1 a,
+  .page .hentry h1 a,
+  .page-id-13 .hentry h1 a{font-size:1.6em}
+}

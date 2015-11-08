@@ -1,0 +1,22 @@
+*.sublime-workspace
+wordpress/*.php
+wordpress/*.txt
+wordpress/*.html
+wordpress/wp-admin
+wordpress/wp-includes
+wordpress/wp-content/*.php
+wordpress/wp-content/plugins
+wordpress/wp-content/cache
+wordpress/wp-content/upgrade
+wordpress/wp-content/uploads
+wordpress/wp-content/themes/*.php
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
