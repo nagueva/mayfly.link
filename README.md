@@ -6,4 +6,5 @@ After this, the link will disappear forever. No archives, no search. Just the li
 
 Proudly running on WordPress.
 
-See more here: http://mayfly.link/about
+- See the project online: http://mayfly.link/
+- More about: http://mayfly.link/about
