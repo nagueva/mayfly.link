@@ -4,4 +4,6 @@ The Mayfly Link project is just a personal project to share links. I know, ther
 ## One link each 24 hours. And nothing else.
 After this, the link will disappear forever. No archives, no search. Just the link. Easy to update, easy to make, easy to keep.
 
+Proudly running on WordPress.
+
 See more here: http://mayfly.link/about
