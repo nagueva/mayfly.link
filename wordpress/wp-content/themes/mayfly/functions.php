@@ -47,8 +47,12 @@ function force_404() {
     }
   }
 }
+function remove_private_title($title) {
+  return "%s";
+}
 remove_filter( 'the_excerpt', 'wpautop' );
 add_action('init', 'page_excerpt');
 add_action( 'wp', 'force_404' );
 add_action('wp_head', 'bgColor');
+add_filter( 'private_title_format', 'remove_private_title' );
 ?>
