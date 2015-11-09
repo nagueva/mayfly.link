@@ -37,6 +37,20 @@ footer p{opacity:0;}
 .page .hentry h1{padding:.5em 0}
 .page .hentry h1 a{cursor:default;font-size:1.6em}
 .page .hentry h1 a span.excerpt{padding:.5em 1em 0}
+.page .hentry .alert-box{font-size: 1em;padding:15px 20px}
+#new-link{}
+#new-link input,
+#new-link textarea{font-size: 1.6em;padding:30px 15px;border-radius:30px;background:#f0f0f0;cursor:default;}
+#new-link textarea{padding:15px;height:200px;}
+#new-link input.empty,
+#new-link textarea.empty{background:#ccc}
+#new-link input:hover,
+#new-link textarea:hover{background:#fff;cursor:pointer;}
+#new-link input:focus,
+#new-link textarea:focus{background:#ddffff;cursor: text;}
+#new-link .button{font-size:1.2em;padding:20px 50px;background:#111;cursor:pointer}
+#new-link .button:hover{background:#000}
+input[value=""]{background:#f00}
 .page-id-13{background:#666}
 .page-id-13 .hentry h1{padding:2em 0 .5em}
 .page-id-13 .hentry h1 a{font-size:2em;cursor:pointer;opacity:.5}
