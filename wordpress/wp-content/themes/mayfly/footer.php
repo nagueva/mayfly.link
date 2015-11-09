@@ -59,6 +59,14 @@ if(is_home()||is_page('random')){
           }
         });
       }
+      $('input[value=""]').addClass('empty');
+      $('input').keyup(function(){
+        if( $(this).val() == ""){$(this).addClass("empty");}else{$(this).removeClass("empty");}
+      });
+      if($('textarea').val()==''){$('textarea').addClass('empty');}
+      $('textarea').keyup(function(){
+        if( $(this).val() == ""){$(this).addClass("empty");}else{$(this).removeClass("empty");}
+      });
     </script>
     <?php wp_footer(); ?>
 
