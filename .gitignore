@@ -1,6 +1,7 @@
 *.sublime-workspace
 fabfile.py
 fabfile.pyc
+.htaccess
 wordpress/*.php
 wordpress/*.txt
 wordpress/*.html
