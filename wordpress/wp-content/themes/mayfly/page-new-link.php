@@ -1,7 +1,7 @@
 <?php
 $status_msg = array(
     'publish' => 'Cool! Your link was published.',
-    'future' => 'Okie dokie, your link was scheduled.',
+    'future' => 'Your link was scheduled. (:',
     'error' => 'Sorry, but all the fields are required.'
 );
 if(is_user_logged_in()&&!empty($_POST)){
