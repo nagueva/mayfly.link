@@ -26,13 +26,17 @@ footer{text-align:center;color:rgba(255,255,255,.75);font-size:.9em;}
 footer p{opacity:0;}
 #lifetime{padding:0;border:0;background:rgba(255,255,255, .25);height:.5em}
 #lifetime .meter{background:rgba(255,255,255, .5)}
+.left-off-canvas-menu{background:rgba(0,0,0,.5)}
 .off-canvas-list{text-align:center}
 .off-canvas-list label{cursor:default}
+ul.off-canvas-list li label{background:rgba(0,0,0,.15);border-top:0;}
+ul.off-canvas-list li a{border: 0}
+ul.off-canvas-list li a:hover{background:rgba(0,0,0,.5);}
 .off-canvas-list img{margin:1em auto 0;width:20%;display:block}
 .off-canvas-list h3{margin:0}
 .off-canvas-list h3 a{background:none !important;border:0 !important;opacity:.75;transition: opacity .25s linear 0.1s !important; }
 .off-canvas-list h3 a:hover{opacity:1}
-.off-canvas-list p{color:#666;font-size:.8em;padding:1em .5em 0}
+.off-canvas-list p{color:#ccc;font-size:.8em;padding:1em .5em 0;opacity:.35}
 .page{background:#333}
 .page .hentry h1{padding:.5em 0}
 .page .hentry h1 a{cursor:default;font-size:1.6em}
